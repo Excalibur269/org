@@ -1,0 +1,68 @@
+#+TITLE: org-mode first travel
+
+#+STARTUP: overview
+* <<font>>
+  *big*
+  /italics/
+  +delete+
+  _sorry_
+  e=mc^2
+
+* paragraph
+this is the first time i use emacs org-mode.
+
+i spent a lot of time in it recently.
+
+i wish i can manage it and it will benefit my life.
+
+best wishes!!!!!
+
+* list
+** fruit
+   - apple
+   - banana
+   - pear
+** animal
+   + cat
+   + dog
+   + rabbit
+** programming language
+   1. c#
+   2. java
+   3. python
+   4. c
+   5. c++
+   6. javascript
+
+* table
+#+CAPTION: table example
+| name      |     number | age |
+| robin1001 | 2010302557 |  21 |
+| linzi     | 2010302557 |  21 |
+| susan     | 2010302554 |  20 |
+
+* <<link>>
+
+http://www.baidu.com
+file:~/desktop/tmp.txt::20
+[[link]]
+[[font]]
+
+* picture
+#+CAPTION: my picture
+[[~/desktop/robin1001.jpg]]
+
+
+* code monkey 
+  #+BEGIN_SRC c
+  #include <stdio.h>
+  int main()
+  {
+      return 0;
+  }
+  #+END_SRC
+* TODO [#A]  我们是my task
+
+
+* newline
+  persist on, wheras it is hard and trivals. but once you have it done, it benifits you all the life.
