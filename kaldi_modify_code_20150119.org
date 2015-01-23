@@ -5,13 +5,13 @@
 * 使用eclipse查看kaldi源码
 ** import makefile
 #+ATTR_HTML: :width 60% 
-[[./img/import.png]]
+[[./img/kaldi_modify_code/import.png]]
 ** project name & makefile location
 #+ATTR_HTML: :width 60%
-[[./img/location.png]]
+[[./img/kaldi_modify_code/location.png]]
 ** result
 #+ATTR_HTML: :width 60%
-[[./img/result.png]]
+[[./img/kaldi_modify_code/result.png]]
 
 * vim tags
 1. 在src目录下使用命令ctags -R
@@ -22,9 +22,9 @@
 2. 可以在Makefile TESTFILES中添加自己的test，然后make test
 3. 路径是相对makefile路径
 #+ATTR_HTML: :width 60%
-[[./img/test.png]]
+[[./img/kaldi_modify_code/test.png]]
 #+ATTR_HTML: :width 60%
-[[./img/make_test.png]]
+[[./img/kaldi_modify_code/make_test.png]]
 
 * Google C++ 编程规范
 1. 函数超过10行时不要使用內联
