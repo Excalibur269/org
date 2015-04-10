@@ -1,2 +1,13 @@
 
 
+* nn dt paper
+
+** Sequence-discriminative training of deep neural networks
+
+several criteria on dnn, MMI, BMMI, sMBR
+
+[[dt_dnn.png]]
+
+
+
+
