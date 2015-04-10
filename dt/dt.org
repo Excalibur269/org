@@ -1,4 +1,26 @@
+* dt 
+ml优点易于训练，告诉你这是桌子。
+dt在训练时不仅优化参数，而且对其竞争进行惩罚, 告诉你这是桌子而不是椅子。
 
+** mmi
++ min the entropy of h(w|o), 即减少标注的不确定度
++ 其中p(w,o)=p(w|o)p(o), p(w|o)=1,p(o)为const 
+[[mmi1.jpg]]
+[[mmi2.png]]
+
+** mmi solution
++ gradient descent
++ extend em
+由公式可以看出，求解该问题需要分别求解分子和分母，其中分子为标注，分母可以通过解码lattice生成的W来近似。
+
+
+** mmi weakness 
++ computationally expensive to maximize objective function
++ Poor generalization to unseen data
+
+** improving mmi generalization
++ scale language model
++ use weaked language model, eg trigram in train, bigram or unigram in dt(to generate more competive W)
 
 * nn dt paper
 
