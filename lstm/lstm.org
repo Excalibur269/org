@@ -2,11 +2,11 @@
 
 * lstm
 
-** kaldi nnet1 lstm
+** kaldi nnet1 lstm, eg 20
 + batch_lstm T_{bptt} 
 prepare one data batch stream, then train the nnet, and go on another, different from nnet training, which prepare all data done then train
 
-if the length of the subsequence of an uttrance shorter than T_bptt, kaldi nnet1 fill it with the last frame of the uttrance
+if the length of the subsequence of an uttrance shorter than T_{bptt}, kaldi nnet1 fill it with the last frame of the uttrance
 
 #+BEGIN_SRC cpp
 // for streams with new utterance, history states need to be reset
