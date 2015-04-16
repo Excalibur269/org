@@ -1,0 +1,15 @@
+* rnn
+
+* lstm
+
+** kaldi nnet1 lstm
++ batch_lstm $$ T_{bptt} $$
+prepare one data batch stream, then train the nnet, and go on another, different from nnet training, which prepare all data done then train
+
+
+#+BEGIN_SRC cpp
+// for streams with new utterance, history states need to be reset
+//new_utt_flags the flags of all streams 
+nnet.ResetLstmStreams(new_utt_flags);
+#+END_SRC
+
