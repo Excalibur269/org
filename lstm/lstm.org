@@ -3,7 +3,7 @@
 * lstm
 
 ** kaldi nnet1 lstm
-+ batch_lstm $$ T_{bptt} $$
++ batch_lstm T_{bptt} 
 prepare one data batch stream, then train the nnet, and go on another, different from nnet training, which prepare all data done then train
 
 if the length of the subsequence of an uttrance shorter than T_bptt, kaldi nnet1 fill it with the last frame of the uttrance
